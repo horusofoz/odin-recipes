@@ -10,9 +10,22 @@ a {
     color: white;
 }
 
+img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
 ol, ul {
     text-align: left;
 }
+
+:not(nav) > ol,
+:not(nav) > ul {
+    width: 600px;
+    margin: auto;
+}
+
 
 table {
     margin: auto;
